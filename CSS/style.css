@@ -1,0 +1,181 @@
+/* Login Page Styling*/
+body {
+  font-family: Arial, sans-serif;
+  
+}
+
+.navbar {
+   display: flex;
+   align-items: center;
+   background-color: rgb(255, 255, 255);
+   justify-content: space-between;
+   padding: 0px;
+   
+   
+}
+.left ul,
+.right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.right a{
+    text-decoration: none;
+    
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+}
+.left a{
+    text-decoration: none;
+    
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+}
+
+
+
+
+
+.rg-btn {
+    background-color: rgb(223, 216, 216);
+    color: black;
+    border-radius: 15px;
+}
+
+.btn-right {
+    background-color: black;
+    color: white; 
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    
+    display: inline-block; 
+}
+
+.progress-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: lightgray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.label {
+  margin-top: 8px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.line {
+   flex: 1;
+  height: 2px;
+  background: lightgray;
+  margin: 0 10px;
+  
+}
+
+.step.active .circle {
+  background: black; 
+  color: white;
+}
+
+
+
+.form-container {
+  max-width: 750px;
+  margin: 50px auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.right-para {
+
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.footer {
+  text-align: center;
+  background-color: #ffffff;
+  display: block;
+ position: bottom;
+}
+
+
+
+/* Register Page css  */
+
+.reg-navbar {
+   display: flex;
+   align-items: center;
+   background-color: white;
+   justify-content: space-between;
+   padding: 0px;
+}
+
+.reg-right {
+    background-color: black;
+    color: white; 
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    
+    display: inline-block;
+}
+
+.no-line {
+  text-decoration: none;
+}
