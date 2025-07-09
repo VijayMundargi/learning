@@ -23,3 +23,12 @@ Today i have done payment page . Change the state of progress Bar.
 ---
 
 ------------------------------------------------------------------What i learned today-----------------------------------------
+Today i learned React Js Basics concepts
+- Creating React using vite development
+- Syntax of React
+- adding Css
+- props
+- prop types
+- default props
+- conditional rendering
+- List 
