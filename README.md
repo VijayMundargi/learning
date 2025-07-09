@@ -22,7 +22,7 @@ Today i have done payment page . Change the state of progress Bar.
 
 ---
 
-------------------------------------------------------------------What i learned today-----------------------------------------
+------------------------------------------------------------------What i learned today-----------------------------------------<br>
 Today i learned React Js Basics concepts
 - Creating React using vite development
 - Syntax of React
